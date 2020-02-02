@@ -111,3 +111,33 @@ main button:hover{
     font-weight: 400;
     transition: all .3s ease-out;
 }
+.heroImg{
+    height:180px;
+    background-color: #F4F4F7;
+    flex-direction: column;
+    align-items: center;
+    flex-direction: column;
+}
+.rowPara{
+    font-size: 14px;
+    color: #b8b7bc;
+    line-height: 21px;
+    font-weight: 400;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    padding-top: 2em;
+    margin-bottom: 2em;
+}
+.imgRow{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.imgRow img{
+    height: 70px;
+    width: 70px;
+    opacity: 1;
+}
