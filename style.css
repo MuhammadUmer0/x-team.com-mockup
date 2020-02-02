@@ -1,0 +1,56 @@
+* {
+  font-family: "Source Sans Pro", HelveticaNeue-Light, "Helvetica Neue Light",
+    "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+nav {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+li {
+  list-style-type: none;
+  text-transform: uppercase;
+  margin-right: 2em;
+  font-family: "Source Sans Pro";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  color: #34323b;
+}
+.logo {
+  width: 15em;
+  margin-right: 8em;
+  margin-left: 3em;
+}
+a {
+  text-decoration: none;
+  color: #34323b;
+}
+nav button {
+  width: 150px;
+  height: 3.2em;
+  background-color: #ff5964;
+  border: none;
+  color: white;
+  font-family: Montserrat, sans-serif;
+  margin-left: 16em;
+  text-transform: uppercase;
+  outline: none;
+  cursor: pointer;
+}
+/* button{
+    width: 200px;
+    background-color: #FF5964;
+    border: none;
+    color: white;
+    font-family: Montserrat, sans-serif;
+
+} */
