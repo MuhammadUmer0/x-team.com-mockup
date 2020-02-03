@@ -144,3 +144,40 @@ main button:hover{
     width: 70px;
     opacity: 1;
 }
+section{
+    height: auto;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.wrap{
+    height: 400px;
+    width: auto;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+h3{
+    font-family: "Open Sans", sans-serif;
+    font-size: 32px;
+    line-height: 32px;
+    color: #34323b;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+hr{
+    margin-top: 2em;
+    width: 2.5em;
+    border: 1px solid #ff5964;
+}
+p{
+    font-family: "Source Sans Pro", HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 300;
+    color: #5a5665;
+}
