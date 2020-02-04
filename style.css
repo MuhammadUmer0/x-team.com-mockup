@@ -54,130 +54,171 @@ nav button {
     font-family: Montserrat, sans-serif;
 
 } */
-main{
-    height: 630px;
+main {
+  height: 630px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #454448;
+}
+main h1 {
+  height: auto;
+  width: 300px;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+  font-size: 51px;
+  line-height: 41px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+}
+main p {
+  height: 100px;
+  width: 385px;
+  font-size: 20px;
+  line-height: 29px;
+  font-weight: 300;
+  color: white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+main button {
+  height: 45px;
+  width: 170px;
+  background-color: #454448;
+  border: 2px solid white;
+  text-transform: uppercase;
+  color: white;
+  font-size: 0.75rem;
+  line-height: 24px;
+  font-weight: 400;
+  transition: all 0.3s ease-out;
+  margin-bottom: 4.5em;
+}
+main button:hover {
+  height: 45px;
+  width: 170px;
+  background-color: white;
+  border: 2px solid white;
+  text-transform: uppercase;
+  color: #ff5964;
+  font-size: 0.75rem;
+  line-height: 24px;
+  font-weight: 400;
+  transition: all 0.3s ease-out;
+  margin-bottom: 4.5em;
+}
+.heroImg {
+  width: 100%;
+  height: 180px;
+  background-color: #f4f4f7;
+  flex-direction: column;
+  align-items: center;
+  flex-direction: column;
+}
+.rowPara {
+  font-size: 14px;
+  color: #b8b7bc;
+  line-height: 21px;
+  font-weight: 400;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  padding-top: 2em;
+  margin-bottom: 2em;
+}
+.brandsRow {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.brandsRow img {
+  height: 70px;
+  width: 70px;
+  opacity: 1;
+}
+section {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.wrap {
+  margin-top: 10em;
+  height: auto;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h3 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 32px;
+  line-height: 32px;
+  color: #34323b;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.wrap hr {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  width: 2.5em;
+  border: 1px solid #ff5964;
+}
+p {
+  font-family: "Source Sans Pro", HelveticaNeue-Light, "Helvetica Neue Light",
+    "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 300;
+  color: #5a5665;
+}
+.imgRow {
+  height: auto;
+  width: auto;
+  margin-top: 4em;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 15em;
+}
+.imgCol {
+  
     display: flex;
-    justify-content: center;
-    align-items: center;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease-in-out;
+}
+.imgCol:hover {
+    display: flex;
     flex-direction: column;
-    background-color: #454448;
-}
-main h1
-{
-    height: auto;
-    width: 300px;
-    color: white;
-    font-family: "Open Sans", sans-serif;
-    font-weight: 800;
-    font-size: 51px;
-    line-height: 41px;
-    text-transform: uppercase;
-    display: flex;
-    justify-content: center;
-
-}
-main p{
-    height: 100px;
-    width: 385px;
-    font-size: 20px;
-    line-height: 29px;
-    font-weight: 300;
-    color: white;
-    text-align: center;
-    display: flex;
     align-items: center;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  }
+.imgCol img{
+    margin-right: 1.3em;
+    margin-left: 1.3em;
+    margin-bottom: 1.5em;
 }
-main button{
-    height: 45px;
-    width: 170px;
-    background-color: #454448;
-    border: 2px solid white;
-    text-transform: uppercase;
-    color: white;
-    font-size: 0.75rem;
-    line-height: 24px;
-    font-weight: 400;
-    transition: all .3s ease-out;
-    margin-bottom: 4.5em;
+h4 {
+  font-family: "Source Sans Pro", HelveticaNeue-Light, "Helvetica Neue Light",
+    "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 24px;
+  line-height: 24px;
+  color: #34323b;
+  font-weight: 800;
+  text-transform: uppercase;
 }
-main button:hover{
-    height: 45px;
-    width: 170px;
-    background-color: white;
-    border: 2px solid white;
-    text-transform: uppercase;
-    color: #ff5964;
-    font-size: 0.75rem;
-    line-height: 24px;
-    font-weight: 400;
-    transition: all .3s ease-out;
-    margin-bottom: 4.5em;
-}
-.heroImg{
-    width: 100%;
-    height:180px;
-    background-color: #F4F4F7;
-    flex-direction: column;
-    align-items: center;
-    flex-direction: column;
-}
-.rowPara{
-    font-size: 14px;
-    color: #b8b7bc;
-    line-height: 21px;
-    font-weight: 400;
-    text-transform: uppercase;
-    display: flex;
-    justify-content: center;
-    padding-top: 2em;
-    margin-bottom: 2em;
-}
-.imgRow{
-    
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-
-}
-.imgRow img{
-    height: 70px;
-    width: 70px;
-    opacity: 1;
-}
-section{
-    height: auto;
-    width: 100%;
-    background-color: aqua;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.wrap{
-    height: 400px;
-    width: auto;
-    background-color: aliceblue;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-}
-h3{
-    font-family: "Open Sans", sans-serif;
-    font-size: 32px;
-    line-height: 32px;
-    color: #34323b;
-    font-weight: 800;
-    text-transform: uppercase;
-}
-hr{
-    margin-top: 2em;
-    width: 2.5em;
-    border: 1px solid #ff5964;
-}
-p{
-    font-family: "Source Sans Pro", HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-    font-size: 20px;
-    line-height: 30px;
-    font-weight: 300;
-    color: #5a5665;
+.imgCol p {
+  font-family: "Source Sans Pro", HelveticaNeue-Light, "Helvetica Neue Light",
+    "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 300;
+  color: #f63954;
 }
