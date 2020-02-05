@@ -296,8 +296,7 @@ h6 {
   margin-bottom: 0.5em;
 }
 .textVideo {
-  height: 500px;
-  background-color: bisque;
+  height: auto;
   padding-top: 15em;
   display: flex;
   flex-direction: column;
@@ -332,4 +331,33 @@ h6 {
   height: 20px;
   width: 20px;
   margin-bottom: 2em;
+}
+.testimonials {
+  
+  margin-top: 10em;  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.reviewRow{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: aqua;
+
+}
+.reviewCol{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: bisque;
+}
+.reviewCol img{
+    height: 40px;
+    width: 40px;
+}
+.reviewCol h6{
+    font-family: ;
 }
