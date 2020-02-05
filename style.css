@@ -346,7 +346,7 @@ h6 {
   margin-top: 5em;
 }
 .reviewCol {
-  width: 45%;
+  width: 47%;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -382,4 +382,59 @@ h6 {
   font-size: 14px;
   color: #5a5665;
   opacity: 0.5;
+}
+.makingRow {
+  margin-top: 10em;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.makingCol {
+  width: 54%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 6em;
+}
+.makingCol p {
+  font-family: "Source Sans Pro", HelveticaNeue-Light, "Helvetica Neue Light",
+    "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 36px;
+  color: #5a5665;
+  margin-bottom: 2em;
+}
+.btnHireDevelopers {
+  height: 50px;
+  width: 200px;
+  background-color: #f63954;
+  position: absolute;
+  margin-top: 34%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: white;
+  font-family: Montserrat, sans-serif;
+  font-size: 12px;
+  line-height: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.btnHireDevelopers:hover {
+  height: 50px;
+  width: 200px;
+  background-color: #f63964;
+  position: absolute;
+  margin-top: 34%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: white;
+  font-family: Montserrat, sans-serif;
+  font-size: 12px;
+  line-height: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
 }
