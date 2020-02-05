@@ -85,6 +85,15 @@ main p {
   display: flex;
   align-items: center;
 }
+p {
+  font-family: "Source Sans Pro", HelveticaNeue-Light, "Helvetica Neue Light",
+    "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+  font-size: 19px;
+  line-height: 29px;
+  color: #5f5e65;
+}
+
 main button {
   height: 45px;
   width: 170px;
@@ -253,15 +262,13 @@ h5 {
   font-size: 20px;
   line-height: 30px;
 }
-.partners{
-    width: 95%;
-    /* text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-content: center; */
+.partners {
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.partnersRow{
+.partnersRow {
   width: 100%;
   height: 180px;
   display: flex;
@@ -281,13 +288,48 @@ h5 {
   margin-bottom: 2em;
   margin-top: 1em;
 }
-h6{
-    font-family: "Open Sans", sans-serif;
-    font-weight: 600;
-    font-size: 19px;
-    color: #34323b;
-    margin-bottom: .5em;
+h6 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 19px;
+  color: #34323b;
+  margin-bottom: 0.5em;
 }
-.textVideo{
-    padding-top: 5em;
+.textVideo {
+  height: 500px;
+  background-color: bisque;
+  padding-top: 15em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.textVideo img {
+  margin-top: 3em;
+  position: relative;
+}
+.btnPlay {
+  height: 85px;
+  width: 130px;
+  background-color: #f63954;
+  position: absolute;
+  margin-top: 32%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.btnPlay:hover {
+  height: 85px;
+  width: 130px;
+  background-color: #ff5964;
+  position: absolute;
+  margin-top: 32%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.btnPlay img {
+  height: 20px;
+  width: 20px;
+  margin-bottom: 2em;
 }
