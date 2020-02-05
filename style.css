@@ -333,34 +333,53 @@ h6 {
   margin-bottom: 2em;
 }
 .testimonials {
-  
-  margin-top: 10em;  
+  margin-top: 10em;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.reviewRow{
-    width: 60%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    background-color: aqua;
-
+.reviewRow {
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 5em;
 }
-.reviewCol{
-    width: 45%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    background-color: bisque;
+.reviewCol {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
-.reviewCol img{
-    height: 40px;
-    width: 40px;
+.reviewCol img {
+  height: 40px;
+  width: 40px;
 }
-.reviewCol h3{
-    margin-bottom: 1em;
+.reviewCol h3 {
+  margin-bottom: 1em;
 }
-.reviewCol h6{
-    
+.reviewCol h6 {
+  font-family: Oswald, sans-serif;
+  font-weight: 300;
+  font-size: 26px;
+  line-height: 36px;
+  color: #f33d58;
+  text-transform: uppercase;
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+.reviewCol .pBlack {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  line-height: 14px;
+  color: #5a5665;
+  font-weight: 600;
+  margin-bottom: 0.3em;
+}
+.reviewCol .pGrey {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  color: #5a5665;
+  opacity: 0.5;
 }
