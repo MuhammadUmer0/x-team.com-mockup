@@ -115,7 +115,6 @@ main button:hover {
   width: 100%;
   height: 180px;
   background-color: #f4f4f7;
-  flex-direction: column;
   align-items: center;
   flex-direction: column;
 }
@@ -227,6 +226,7 @@ h4 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin-bottom: 4em;
 }
 .row img {
   height: 700px;
@@ -240,7 +240,7 @@ h4 {
   justify-content: space-around;
   margin-right: 6em;
 }
-h6 {
+h5 {
   font-family: "Open Sans", sans-serif;
   font-size: 24px;
   font-weight: 600;
@@ -252,4 +252,42 @@ h6 {
     "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-size: 20px;
   line-height: 30px;
+}
+.partners{
+    width: 95%;
+    /* text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center; */
+}
+.partnersRow{
+  width: 100%;
+  height: 180px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 6em;
+}
+.partnersCol {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.partnersCol img {
+  height: 40px;
+  width: 40px;
+  margin-bottom: 2em;
+  margin-top: 1em;
+}
+h6{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 19px;
+    color: #34323b;
+    margin-bottom: .5em;
+}
+.textVideo{
+    padding-top: 5em;
 }
