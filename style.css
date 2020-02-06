@@ -91,7 +91,7 @@ p {
   font-weight: 300;
   font-size: 19px;
   line-height: 29px;
-  color: #5f5e65;
+  color: #6e6d72;
 }
 
 main button {
@@ -537,6 +537,64 @@ h6 {
   font-family: Montserrat, sans-serif;
   font-size: 12px;
   line-height: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.newsLetter {
+  height: 392px;
+  width: 100%;
+  background-color: #f1f1f5;
+  margin-top: 10em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.newsLetter h3 {
+  margin-bottom: 0.5em;
+}
+.newsLetter .inputRow {
+  width: 55%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3.5em;
+}
+input {
+  width: 65%;
+  padding-left: 2em;
+  outline-color: #ff5964;
+  font-family: "Source Sans Pro", HelveticaNeue-Light, "Helvetica Neue Light",
+    "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-seri;
+  font-size: 18px;
+  font-weight: 300;
+  color: #6e6d72;
+}
+.btnSearch {
+  height: 50px;
+  width: 200px;
+
+  background-color: #f63954;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: white;
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  line-height: 59px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.btnSearch:hover {
+  height: 50px;
+  width: 200px;
+  background-color: #f63964;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: white;
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  line-height: 59px;
   font-weight: 400;
   text-transform: uppercase;
 }
