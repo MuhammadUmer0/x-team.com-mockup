@@ -492,3 +492,51 @@ h6 {
   font-weight: 400;
   text-transform: uppercase;
 }
+.assembleRow {
+  margin-top: 10em;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.assembleCol {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+.assembleCol img {
+  height: 500px;
+  width: 500px;
+}
+.assembleCol button {
+  height: 50px;
+  width: 200px;
+  background-color: #f63954;
+  position: absolute;
+  margin-top: 18%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: white;
+  font-family: Montserrat, sans-serif;
+  font-size: 12px;
+  line-height: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.assembleCol button:hover {
+  height: 50px;
+  width: 200px;
+  background-color: #f63964;
+  position: absolute;
+  margin-top: 18%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: white;
+  font-family: Montserrat, sans-serif;
+  font-size: 12px;
+  line-height: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
