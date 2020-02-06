@@ -66,13 +66,15 @@ main h1 {
   height: auto;
   width: 300px;
   color: white;
-  font-family: "Open Sans", sans-serif;
   font-weight: 800;
   font-size: 51px;
   line-height: 41px;
   text-transform: uppercase;
   display: flex;
   justify-content: center;
+}
+.italic{
+    font-style: italic;
 }
 main p {
   height: 100px;
