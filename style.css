@@ -73,8 +73,8 @@ main h1 {
   display: flex;
   justify-content: center;
 }
-.italic{
-    font-style: italic;
+.italic {
+  font-style: italic;
 }
 main p {
   height: 100px;
@@ -600,11 +600,37 @@ input {
   font-weight: 400;
   text-transform: uppercase;
 }
-footer{
-  height: 500px;
+footer {
+  height: 700px;
   width: 100%;
-  background-color: aqua;
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
+}
+footer .footerCol {
+  margin-top: 6em;
+  height: 275px;
+  width: 220px;
+  display: flex;
+  flex-direction: column;
 }
 
+.footerCol img {
+  height: 35px;
+  width: 90px;
+}
+.footerCol h6{
+  font-family: 600 1.125rem 'Open Sans',sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 1em;
+}
+.footerCol p{
+  font-family: "Source Sans Pro", HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-style: 300;
+  font-size: 16px;
+  line-height: 30px;
+  color: #242334;
+}
+.footerCol a:hover{
+  color: black;
+}
