@@ -45,22 +45,15 @@ nav button {
   text-transform: uppercase;
   outline: none;
   cursor: pointer;
-}
-/* button{
-    width: 200px;
-    background-color: #FF5964;
-    border: none;
-    color: white;
-    font-family: Montserrat, sans-serif;
 
-} */
+} 
 main {
-  height: 630px;
+  height: 650px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: #454448;
+  background-image:url(images/hero-homepage.jpg);
 }
 main h1 {
   height: auto;
