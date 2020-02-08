@@ -600,3 +600,30 @@ input {
   font-weight: 400;
   text-transform: uppercase;
 }
+footer{
+  height: 500px;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+}
+footer h6{
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #272334;
+  text-transform: uppercase;
+
+}
+footer img{
+  height: 35px;
+  width: 80px;
+}
+.imgHeading{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #6e6d72;
+}
